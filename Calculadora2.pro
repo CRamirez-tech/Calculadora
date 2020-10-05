@@ -9,6 +9,7 @@ CONFIG -= app_bundle
 
 SOURCES += \
         ab.cpp \
+        lex.cpp \
         main.cpp \
         nodo.cpp
 
@@ -19,4 +20,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     ab.h \
+    lex.h \
     nodo.h
